@@ -1,0 +1,147 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 55px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 15px;
+}
+
+.hero-container {
+  background-image: url("../images/herobanner.jpg");
+  min-height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-container > .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 12px 24px;
+  background-color: #000;
+  opacity: 0.6;
+  font-size: 1.25rem;
+  letter-spacing: 10px;
+}
+
+.hero-container-about {
+  background-image: url("../images/hero-banner-about.jpg");
+  min-height: 55%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-container-contact {
+  background-image: url("../images/herobanner-contact.jpg");
+  min-height: 55%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-container-maps {
+  background-image: url("../images/herobanner-maps.jpg");
+  min-height: 55%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo-wrapper {
+  margin-left: 2%;
+}
+
+.links-wrapper {
+  width: 255px;
+  margin-right: 2%;
+}
+
+.link-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.links-wrapper > div > div:hover {
+  color: black;
+  background-color: #ccc;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  border: solid 1px blue;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  border: solid 1px blue;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info-right {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 55px;
+  margin-top: ;
+  border: dotted 1px yellow;
+}
+
+.author {
+  margin-left: 2%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer a:hover {
+  color: black;
+  background-color: #ccc;
+}
+
+.footer-link {
+  margin-left: 0.5%;
+}
+
+.contact-info-map {
+  display: flex;
+  justify-content: center;
+}
